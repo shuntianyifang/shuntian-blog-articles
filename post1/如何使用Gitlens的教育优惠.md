@@ -4,7 +4,7 @@
 
 ## 截止至2025.10.22日，教育优惠==可以且仅可以白嫖6个月==，6个月后只是续期有优惠，==无法一直白嫖==  
 
-![VSCode中显示的信息](assets\images\post1\post1_1.png "VSCode中显示的信息")  
+![VSCode中显示的信息](post1_1.png "VSCode中显示的信息")  
 图中的英语意思为：您的学生试用期还剩180天。  
 试用期结束后，您将只能在公开托管的仓库上使用Pro功能。  
 
@@ -14,18 +14,18 @@
 
 打开[GitHub Student Developer Pack](https://education.github.com/pack)界面，并保持登录状态
 未登录时，会显示Sign in  
-![未登录时的界面](assets\images\post1\post1_2.png "未登录时的界面")  
+![未登录时的界面](post1_2.png "未登录时的界面")  
 登录后，右上角为你的头像  
-![登录后的界面](assets\images\post1\post1_3.png "登录后的界面")  
+![登录后的界面](post1_3.png "登录后的界面")  
 
 ### 二  
 
 找到Gitlens（建议使用crlt + f搜索）  
 
 在登录状态下，该界面会这样显示  
-![登录后的界面](assets\images\post1\post1_4.png "登录后的界面")  
+![登录后的界面](post1_4.png "登录后的界面")  
 如果这样显示，那就是你还没登录  
-![未登录时的界面](assets\images\post1\post1_5.png "未登录时的界面")  
+![未登录时的界面](post1_5.png "未登录时的界面")  
 
 可以发现未登录时没有"**Get direct access on the GitLens website**"
 
@@ -37,7 +37,7 @@
 ### 三  
 
 现在你进入到了GitKraken领取学生优惠的界面  
-![GitKraken的界面](assets\images\post1\post1_6.png "GitKraken的界面")  
+![GitKraken的界面](post1_6.png "GitKraken的界面")  
 点击"**Get Your Free Student**"  
 
 之后怎么操作我无法演示了，因为我现在已经申请成功了，点进去之后的界面与读者的界面显然不同  
