@@ -3,7 +3,7 @@ title: 全用if不只是性能问题
 published: 2025-11-10
 description: '一个因为全用if导致的WA'
 image: ''
-tags: [Programming Pitfalls]
+tags: [Programming Pitfalls, if-else,Conditional Statements]
 category: Programming Pitfalls
 draft: false
 ---
