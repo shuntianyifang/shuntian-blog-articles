@@ -1,6 +1,6 @@
 ---
 title: 洋 AI 的 API 也能直连——如何利用 Cloudflare 给 API 做中转
-published: 2026-3-12
+published: 2026-3-16
 description: '如何利用 Cloudflare 的服务器做中转服务器，并利用一个已购买的域名来防止 Cloudflare 默认分配的 *.workers.dev 域名在国内地区被 DNS 污染'
 image: ''
 tags: []
@@ -116,9 +116,33 @@ export default {
 };
 ```
 
-如果你使用的其他平台，请咨询下 AI 这里的 url.host = 后面该填什么，因为我现在只懂 Gemini 。
+如果你使用的其他平台，请咨询下 AI 这里的 url.host = 后面该填什么，因为我现在只懂 Gemini 。  
+
+编辑完之后点击蓝色的 "Deploy"。  
+
+- 进入设置并绑定域名：  
+  - 找到 Setting 并点进去，然后在找到 Domains & Routes 这一栏，点击右侧的蓝色 "+ Add" 按钮。 
+  - ![Setting的位置](post5_6.png)
+  - ![哪里添加域名](post5_7.png)  
+  - 在弹出的选项中，选择 "Custom Domain"（自定义域）。  
+  - ![弹出的选项](post5_8.png)
+  - 在输入框里，输入你自己购买的域名下的一个子域名  
+  - 点击确认  
+
+添加完之后，Cloudflare 会在后台自动帮你搞定 DNS 解析，并免费签发 HTTPS 安全证书。  
 
 ### 三 连接测试  
+
+测试前，请确保你已经申请了 API Key  
+另外，下面的代码会以 Gemini 为例子  
+
+使用你的电脑终端（Windows 的 cmd/PowerShell，或者 Mac 的 Terminal），直接复制这段代码，把作为示例的 example.zhangsan.com 删掉，同样换成输入你自己购买的域名下的一个子域名， YOUR_API_KEY 换掉也换成你自己的，然后回车运行：  
+
+```bash
+curl -H "Content-Type: application/json" -d "{\"contents\":[{\"parts\":[{\"text\": \"你好，请用一句话证明我们连通了！\"}]}]}" "https://example.zhangsan.com/v1beta/models/gemini-2.5-flash:generateContent?key=YOUR_API_KEY"
+```
+
+如果通了： 屏幕上会立刻返回一段包含中文字符串的 JSON 数据，比如 {"text": "你好！我已经成功接收到你的消息..."}。
 
 ## 结尾  
 
