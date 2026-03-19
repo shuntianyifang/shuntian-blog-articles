@@ -1,6 +1,6 @@
 ---
 title: 洋 AI 的 API 也能直连——如何利用 Cloudflare 给 API 做中转
-published: 2026-3-16
+published: 2026-03-16
 description: '如何利用 Cloudflare 的服务器做中转服务器，并利用一个已购买的域名来防止 Cloudflare 默认分配的 *.workers.dev 域名在国内地区被 DNS 污染'
 image: ''
 tags: [Tutorials, Cloudflare, Reverse Proxy, API Proxy, LLM]
@@ -29,7 +29,7 @@ draft: false
 
 在这个界面，你只需要：  
 
-- 输入你的域名： 在那个写着 example.com 的输入框里，填入你刚刚买好的域名：zhangsan.com（此处只是示例，注意不要加 www. 或者 http://，只填纯域名）。  
+- 输入你的域名： 在那个写着 example.com 的输入框里，填入你刚刚买好的域名：zhangsan.com（此处只是示例，注意不要加 'www'. 或者 http://，只填纯域名）。  
 - 保持默认选项： 下面的 "Quick scan for DNS records"（快速扫描 DNS 记录）保持默认选中即可。关于拦截 AI 爬虫（AI crawlers）的选项随便选哪个都不影响我们做 API 代理，保持默认就好。  
 - 点击继续： 点击页面最下方蓝色的 Continue 按钮。  
 
@@ -121,7 +121,7 @@ export default {
 编辑完之后点击蓝色的 "Deploy"。  
 
 - 进入设置并绑定域名：  
-  - 找到 Setting 并点进去，然后在找到 Domains & Routes 这一栏，点击右侧的蓝色 "+ Add" 按钮。 
+  - 找到 Setting 并点进去，然后在找到 Domains & Routes 这一栏，点击右侧的蓝色 "+ Add" 按钮。
   - ![Setting的位置](post5_6.png)
   - ![哪里添加域名](post5_7.png)  
   - 在弹出的选项中，选择 "Custom Domain"（自定义域）。  

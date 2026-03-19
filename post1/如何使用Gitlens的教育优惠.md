@@ -1,8 +1,18 @@
-# 如何使用Gitlens的教育优惠  
+---
+title: 如何使用GitLens的教育优惠
+published: 2025-10-22
+description: '申请GitLens教育优惠的具体步骤'
+image: ''
+tags: ["Blogging", "GitLens", "Education Discount", "Tutorials"]
+category: 'Tutorials'
+draft: false 
+---
 
-## 前提条件：你已经获得了GitHub教育包（本文不会教你怎么获得这玩意）  
+## 前言  
 
-## 截止至2025.10.22日，教育优惠==可以且仅可以白嫖6个月==，6个月后只是续期有优惠，==无法一直白嫖==  
+前提条件：你已经获得了GitHub教育包（本文不会教你怎么获得这玩意）  
+
+截止至2025.10.22日，教育优惠***可以且仅可以白嫖6个月***，6个月后只是续期有优惠，***无法一直白嫖***  
 
 ![VSCode中显示的信息](post1_1.png "VSCode中显示的信息")  
 图中的英语意思为：您的学生试用期还剩180天。  
@@ -10,7 +20,7 @@
 
 ## 具体步骤  
 
-### 一  
+### 一.打开并登录GitHub教育包的页面  
 
 打开[GitHub Student Developer Pack](https://education.github.com/pack)界面，并保持登录状态
 未登录时，会显示Sign in  
@@ -18,7 +28,7 @@
 登录后，右上角为你的头像  
 ![登录后的界面](post1_3.png "登录后的界面")  
 
-### 二  
+### 二.将GitHub的教育优惠授权给GitLens的相关组织  
 
 找到Gitlens（建议使用crlt + f搜索）  
 
@@ -34,7 +44,7 @@
 在弹出的页面中同意授权给Gitlens  
 （我这里已经授权过了，弹不出这个界面）  
 
-### 三  
+### 三.领取GitLens的教育优惠
 
 现在你进入到了GitKraken领取学生优惠的界面  
 ![GitKraken的界面](post1_6.png "GitKraken的界面")  
